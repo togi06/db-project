@@ -53,6 +53,11 @@ CREATE VİEW EmailList_Togi as select substr(FIRST_NAME,0,1) ||'.'||substr(LAST_
                             lower (EMAIL|| '@gmail.com') as "full_email"
                      from EMPLOYEES;
 
+--to remove view
+drop view EMAILLIST;
+
+select  * from EMPLOYEES;
+
 
 
 
