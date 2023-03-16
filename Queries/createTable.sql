@@ -52,7 +52,7 @@ WHERE Emp_ID = 4;
 select  * from SCRUMTEAM_TOLGA;
 
 UPDATE ScrumTeam_Tolga
-SET LASTNAME = 'Doğru'
+SET LASTNAME = 'Bayter'
 WHERE Emp_ID = 4;
 
 
