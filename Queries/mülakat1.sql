@@ -27,3 +27,7 @@ where SALARY =(select min(SALARY)
                     order by SALARY desc )
                where ROWNUM <15);
 
+-- how to find duplicate names in employees table
+select FIRST_NAME, count(*) from EMPLOYEES
+group by FIRST_NAME
+having  count(*)>1;
