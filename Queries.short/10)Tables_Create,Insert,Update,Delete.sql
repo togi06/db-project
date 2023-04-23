@@ -21,6 +21,7 @@
 
  Delete:
         delete from TableName where condition
+ kjdslkaj
  */
 
  create table  address1(
