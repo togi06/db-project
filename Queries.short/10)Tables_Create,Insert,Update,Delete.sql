@@ -57,3 +57,6 @@ select * from customer1;
 update customer1 set address_id = 15 where customer_id =3;
 
 delete  from customer1 where customer_id = 1 and address_id = 10;
+insert into customer1(customer_id, firstName, address_id) values (1, 'Tolga Bayter', 10);
+
+commit work;
