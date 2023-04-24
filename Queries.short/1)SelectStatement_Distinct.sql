@@ -12,6 +12,7 @@ Ama bunu yapmadan önce "from "table" yapmak zorundasın!!
 select DEPARTMENT_NAME,DEPARTMENT_ID from DEPARTMENTS;
 
 
+
 /*
  birden fazla tablodan da bilgi çağırabiliyoruz
 
