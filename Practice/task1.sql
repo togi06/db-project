@@ -87,3 +87,28 @@ select * from EMPLOYEES where SALARY> (select round(avg(salary),2) from Employee
 select * from EMPLOYEES where SALARY < (select round(avg(salary),2) from Employees);
 
 select * from EMPLOYEES where SALARY < (select round(avg(salary),2) from Employees) order by  SALARY desc ;
+
+--17. count the total numbers of the departments
+-- in departs table
+select count(*) from  DEPARTMENTS;
+select * from DEPARTMENTS;
+
+--18. sort the start_date in ascending order in job_history's table
+select * from JOB_HISTORY;
+select * from JOB_HISTORY order by START_DATE;
+
+--19. sort the start_date in descending
+-- order in job_history's table
+select * from JOB_HISTORY order by START_DATE desc ;
+
+--20. list all the employees
+-- whose first name starts with 'A'
+select  * from EMPLOYEES where FIRST_NAME like 'A%';
+
+--21. list all the employees whose job_ID contains 'IT'
+select  * from EMPLOYEES where  JOB_ID like '%IT%';
+
+--22. list all the employees
+-- whose department id in 50, 80, 100
+
+select  * from  EMPLOYEES where DEPARTMENT_ID in (50,80,100);
